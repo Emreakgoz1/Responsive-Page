@@ -1,0 +1,56 @@
+.rates {  
+  background: #F6FFF6;
+  border: 1px solid #646464;
+  border-radius: 29px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px 0 50px ;
+}
+.container{
+  padding: 0 22px !important;
+  
+}
+.rates .firstitem .firstpercentage {
+  color: #83e281;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  padding-bottom: 21px;
+}
+.rates .firstitem .firsttext {
+  color: #83e281;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  padding-bottom: 144px;
+
+}
+.rates .seconditem .secondpercentage {
+  color: #83e281;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  padding-bottom: 21px;
+}
+.rates .seconditem .secondtext {
+  color: #83e281;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  padding-bottom: 144px;
+
+}
+.rates .thirditem .thirdpercentage {
+  color: #83e281;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  padding-bottom: 21px;
+}
+.rates .thirditem .thirdtext {
+  color: #83e281;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+}
