@@ -1,56 +1,69 @@
-.rates {  
-  background: #F6FFF6;
+.rates {
+  background: #f6fff6;
   border: 1px solid #646464;
   border-radius: 29px;
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 50px 0 50px ;
+  padding: 82px 85px;
+  gap: 144px;
 }
-.container{
-  padding: 0 22px !important;
-  
+
+@media screen and (min-width: 1200px) {
+  .rates {
+    flex-direction: row;
+    border: 1px solid #000000;
+    justify-content: space-between;
+    align-items: center;
+    gap: 77px;
+    padding: 82px 96px 82px 100px;
+  }
 }
+
+.dawn {
+  display: none;
+  width: 80px;
+  height: 80px;
+}
+
+@media screen and (min-width: 1200px) {
+  .dawn {
+    display: block;
+  }
+}
+
+.rates .firstitem {
+  display: flex;
+  flex-direction: column;
+}
+
 .rates .firstitem .firstpercentage {
   color: #83e281;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
-  padding-bottom: 21px;
+  margin-bottom: 21px;
+  line-height: 90%;
 }
+
+@media screen and (min-width: 1200px) {
+  .rates .firstitem .firstpercentage {
+    font-weight: 400;
+    font-size: 64px;
+  }
+}
+
 .rates .firstitem .firsttext {
   color: #83e281;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  padding-bottom: 144px;
+}
 
-}
-.rates .seconditem .secondpercentage {
-  color: #83e281;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  padding-bottom: 21px;
-}
-.rates .seconditem .secondtext {
-  color: #83e281;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
-  padding-bottom: 144px;
-
-}
-.rates .thirditem .thirdpercentage {
-  color: #83e281;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 64px;
-  padding-bottom: 21px;
-}
-.rates .thirditem .thirdtext {
-  color: #83e281;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 22px;
+@media screen and (min-width: 1200px) {
+  .rates .firstitem .firsttext {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+  }
 }

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap:  50px;
+  gap: 50px;
 }
 .aboutme .title {
   font-style: normal;
@@ -15,40 +15,26 @@
   font-weight: 700;
   font-size: 22px;
 }
+
 .aboutme .text .linearcolorpurpletoyellow {
   background: linear-gradient(to right, #fa709a, #fee140),
     linear-gradient(90deg, #292929 0%, #292929 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .aboutme .text .linearcoloryellowtopurple {
   background: linear-gradient(to right, #fee140, #fa709a),
     linear-gradient(90deg, #292929 0%, #292929 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .aboutme .text .linearcolorbluetogreen {
   background: linear-gradient(90deg, #8fd3f4 0%, #84fab0 100%),
     linear-gradient(0deg, #292929, #292929);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .aboutme .text .linearcolorgreentoblue {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%),
     linear-gradient(0deg, #292929, #292929);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .aboutme .text .linearcolorbluetopurple {
   background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%),
     linear-gradient(0deg, #292929, #292929);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .aboutme .text .colombiacolor {
   background: linear-gradient(
@@ -60,7 +46,10 @@
       #ff0000 20.1%
     ),
     linear-gradient(0deg, #292929, #292929);
-   background-clip: text;
-  -webkit-background-clip: text;
+}
+.customwebkit {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
+  display: inline;
 }

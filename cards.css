@@ -1,12 +1,14 @@
 .cards {
   margin-top: 150px;
 }
+
 .cardsectiontitle {
   color: #292929;
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
 }
+
 .cards .firstcard {
   margin-top: 36px;
   padding: 30px 30px;
@@ -15,7 +17,17 @@
   border: 1px solid #000000;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .cards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.cards.element {
+  display: flex;
+  align-items: start;
 }
 .cards .firstcard .cardtitle {
   padding-top: 23px;
