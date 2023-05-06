@@ -80,3 +80,19 @@
 .headline .arrow {
   margin-left: 10px;
 }
+@media screen and (min-width: 1200px) {
+  .headline {
+    flex-direction: row;
+    align-items: center;
+  }
+  .headline .portalimg {
+    width: 100%;
+    display: block;
+    margin-bottom: 400px;
+    /*beni affet kafayı yemek üzereydim*/
+  }
+  .headline .headlineimg {
+    display: block;
+    width: 100%;
+  }
+}
