@@ -1,0 +1,82 @@
+.headline {
+  margin: 40px 0px 78px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.headline .portalimg {
+  display: none;
+}
+.headline .headlineimg {
+  display: none;
+}
+.headline .headtext {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #292929;
+  font-size: 76px;
+  line-height: 90%;
+  margin-bottom: 10px;
+}
+.headline .secondtext {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  line-height: 90%;
+
+  background: linear-gradient(to right, #fa709a, #fee140),
+    linear-gradient(90deg, #292929 0%, #292929 100%);
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+.instagram {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram .insideimg {
+  position: absolute;
+  margin-bottom: 5px;
+}
+.headline .icons {
+  padding: 15px;
+  margin-top: 79px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headline .icons .figma .figmarow {
+  display: flex;
+  justify-content: start;
+}
+.figma-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.figma .figma5 {
+  margin-right: 15px;
+}
+.icons .linkedin {
+  background: #292929;
+  padding: 5px;
+}
+.icons .medium {
+  width: auto;
+  height: auto;
+}
+.headline .button {
+  padding: 15px;
+  background: #292929;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.headline .arrow {
+  margin-left: 10px;
+}

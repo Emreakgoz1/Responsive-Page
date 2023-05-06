@@ -5,12 +5,21 @@
   align-items: start;
   gap: 50px;
 }
+.zigzag {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .aboutme .zigzag {
+    display: inline-block;
+  }
+}
 .aboutme .title {
   font-style: normal;
   font-weight: 400;
   font-size: 64px;
 }
 .aboutme .text {
+  margin: 50px 0px;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -51,5 +60,47 @@
   background-clip: text !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  display: inline;
+  display: inline !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .item0 {
+    order: 0;
+  }
+  .item1 {
+    order: 1;
+  }
+  .item2 {
+    order: 3;
+  }
+  .item3 {
+    order: 2;
+  }
+  .item4 {
+    order: 4;
+  }
+  .item5 {
+    order: 5;
+  }
+  .aboutme .parenttext {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutme .babyimage {
+    height: 100%;
+    width: 100%;
+  }
+  .aboutme .boyimage {
+    height: 100%;
+    width: 100%;
+  }
+  .aboutme .boy2image {
+    height: 100%;
+    width: 100%;
+  }
+  .aboutme .parenttext .text {
+    margin: 0px;
+  }
 }
