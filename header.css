@@ -1,0 +1,51 @@
+.headercontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0px;
+}
+.headercontent .navbarmenu {
+  padding-left: 278px;
+}
+.headercontent .title {
+  color: #292929;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+}
+.headercontent .navbarmenu .navtext {
+  color: #292929;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+.headercontent .buttons {
+  display: none;
+}
+.headercontent .buttons .switchdarkbutton {
+  background: #051724;
+  border-radius: 32px;
+  padding: -15px -24px;
+}
+
+body.dark {
+  background-color: black;
+}
+.headercontent .buttons .black {
+  background: #292929;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-left: 20px;
+  padding: 15px 24px;
+}
+@media screen and (min-width: 1200px) {
+  .headercontent .navbarmenu {
+    padding-left: 0px;
+  }
+  .headercontent .buttons {
+    display: flex;
+    justify-content: end;
+  }
+  .headercontent .buttons .switchdarkbutton {
+  }
+}
