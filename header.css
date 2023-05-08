@@ -4,9 +4,7 @@
   align-items: center;
   margin: 40px 0px;
 }
-.headercontent .navbarmenu {
-  padding-left: 278px;
-}
+
 .headercontent .title {
   color: #292929;
   font-weight: 700;
@@ -21,11 +19,25 @@
 }
 .headercontent .buttons {
   display: none;
+  align-items: center;
 }
 .headercontent .buttons .switchdarkbutton {
+  display: flex;
+  align-items: center;
   background: #051724;
   border-radius: 32px;
-  padding: -15px -24px;
+  padding: 4px;
+  height: fit-content;
+}
+.headercontent .buttons .movecircle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.headercontent .buttons .type-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 body.dark {
@@ -45,7 +57,5 @@ body.dark {
   .headercontent .buttons {
     display: flex;
     justify-content: end;
-  }
-  .headercontent .buttons .switchdarkbutton {
   }
 }
